@@ -1,5 +1,5 @@
 def camelcase(sentence):
-    """Conver sentence to camelCase, for example, "Display all books" is converted to "displayAllBooks" """
+    """Convert sentence to camelCase, for example, "Display all books" is converted to "displayAllBooks" """
 
     title_case = sentence.title()  # Uppercase first letter of each word
     upper_camel_cased = title_case.replace(' ', '')  # Remove spaces
@@ -18,6 +18,7 @@ def banner():
 
 
 def instructions():
+    """Print instruction message"""
     print('Enter a sentence to convert to camelcase  ')
 
 
