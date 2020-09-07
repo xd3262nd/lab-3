@@ -18,7 +18,7 @@ def banner():
 
 
 def instructions():
-    print('Enter a sentence to convert to camelcase')
+    print('Enter a sentence to convert to camelcase  ')
 
 
 
